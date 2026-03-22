@@ -70,9 +70,9 @@ public class largSumContSubarray {
 
     public static void main(String args[]) {
         int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
-        // System.out.println(largestSum(arr));
-        // System.out.println(largestSumNeg(arr));
-        System.out.println(Arrays.toString(largestSumRange(arr)));
+        // System.out.println(largestSum(arr));            // kanada's algo [ negative ko reset kr do ]
+        // System.out.println(largestSumNeg(arr));           // agr negative bhi krna ho to
+        System.out.println(Arrays.toString(largestSumRange(arr)));      // subArrays ka range bhi puche to
 
     }
 }
