@@ -78,7 +78,7 @@ public class trappingRainWater {
 
         trappingRainWater obj = new trappingRainWater(); // object create
 
-        System.out.println(obj.trap(arr));   // ✅ correct
-        System.out.println(obj.trapp(arr));  // ✅ correct
+        System.out.println(obj.trap(arr));   
+        System.out.println(obj.trapp(arr));  
     }
 }
